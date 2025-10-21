@@ -21,7 +21,7 @@ const DTIPages02 = () => {
       alert("กรุณากรอกข้อมูลให้ครบถ้วน");
       return;
     }
-
+    return `สวัสดีคุณ ${titl}${fullName} จากคณะ ${faculty}`;
   };
   
   return (
